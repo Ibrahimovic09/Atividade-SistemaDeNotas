@@ -10,7 +10,13 @@ public class SistemaDeNotas {
         System.out.print("Digite a segunda nota: ");
         double nota2 = scanner.nextDouble();
 
-        double media = (nota1 + nota2) / 2;
+         System.out.print("Digite a segunda nota: ");
+        double nota3 = scanner.nextDouble();
+        
+         System.out.print("Digite a segunda nota: ");
+        double nota4 = scanner.nextDouble();
+
+        double media = (nota1 + nota2 +nota3 + nota4) / 2;
 
         String situacao;
 
